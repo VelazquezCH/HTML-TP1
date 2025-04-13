@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="Es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 10;
+            padding: 5;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Registro de Usuario</h2>
+    <div style="background-color: aqua; width: 50%;">
+        <ul>
+            <li>Nombe: <input  type="text"> </li>
+            <li>Apallido: <input type="text"> </li>
+            <li>Fecha de Nacimiento: <input type="date"></li>
+            <li>Genero: </li>
+            <ul>
+                <li>
+                    <input type="checkbox" id="Masculino">
+                    <label for="Masculino">Masculino</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="Femenino">
+                    <label for="Femenino">Femenino</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="Otro">
+                    <label for="Otro">Otro</label>
+                </li>
+            </ul>
+        </ul>
+    </div>
+
+    <div>
+        <h2>Información de Contacto</h2>
+        <ul>
+            <li>Correo Electronico <input type="email"></li>
+            <li>Búmero de Celular <input type="number"></li>
+            <li>Dirección <br> <input type="text" style=" width: 300px ; height: 60px;"></li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>Información de Cuenta</h2>
+        <ul>
+            <li>Nombre de Usuario: <input type="text"></li>
+            <li>Contraseña: <input type="text"></li>
+            <li>Confirmar Contraseña <input type="text"></li>
+        </ul>
+    </div>
+    <div>
+        <h2>Preferencia</h2>
+        <p>seleccionar un Color Favorito 
+            <select name="Color" id="Color">
+                <option value="Rojo">Rojo</option>
+                <option value="Azul">Azul</option>
+                <option value="Verde">Verde</option>
+                <option value="Amarillo">Amarillo</option>
+                <option value="Negro">Negro</option>
+                <option value="Blanco">Blanco</option>
+                <option value="Naranja">Naranja</option>
+            </select>
+        </p>
+    </div>
+    <p>
+    <input type="checkbox" id="Aceptar">
+    <label for="Aceptar">Acepto Terminos y Condiciones</label>
+    </p>
+    <input type="button" value="Registrarse">
+</body>
+</html>
